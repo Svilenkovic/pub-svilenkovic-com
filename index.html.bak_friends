@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>🔥 SAJT NA PRODAJU - Pub Šablon | 450€ + prva godina FREE | svilenkovic.com</title>
+    <meta name="description" content="Profesionalni šablon sajta za pub, kafić ili restoran. Online porudžbine, meni, galerija. Cena: 450€ + prva godina besplatno, posle 300€/godišnje.">
+    <meta name="keywords" content="pub sajt, kafić sajt, restoran sajt, šablon sajt, web dizajn, online porudžbine">
+    <meta name="author" content="Svilenkovic.com">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="🔥 SAJT NA PRODAJU - Pub Šablon | 450€ + prva godina FREE">
+    <meta property="og:description" content="Profesionalni šablon sajta za pub, kafić ili restoran. Online porudžbine, meni, galerija.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pub.svilenkovic.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://svilenkovic.com/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header--solid" id="header">
+        <nav class="nav container">
+            <a href="index" class="nav__logo">
+                <i class="fas fa-beer-mug-empty"></i>
+                <span>Pub<strong>Šablon</strong></span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index" class="nav__link active">Početna</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="meni" class="nav__link">Meni</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="porudzbine" class="nav__link">Poruči Online</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="o-nama" class="nav__link">O Nama</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="galerija" class="nav__link">Galerija</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="kontakt" class="nav__link">Kontakt</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <a href="porudzbine" class="nav__cart" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart__count" id="cart-count">0</span>
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+            <span class="hero__subtitle" data-aos="fade-up">🔥 SAJT NA PRODAJU - Šablon</span>
+            <h1 class="hero__title" data-aos="fade-up" data-aos-delay="100">
+                Pub <span>Šablon</span>
+            </h1>
+            <p class="hero__description" data-aos="fade-up" data-aos-delay="200">
+                Kompletna izrada sajta za vaš pub, kafić ili restoran. Cena: 450€ sa prvom godinom besplatno (hosting, održavanje, prilagođavanje). Posle: 300€/godišnje.
+            </p>
+            <div class="hero__buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="btn btn--primary">
+                    <i class="fas fa-shopping-cart"></i> Naruči Šablon
+                </a>
+                <a href="https://svilenkovic.com/contact" target="_blank" rel="noopener" class="btn btn--secondary">
+                    <i class="fas fa-envelope"></i> Kontaktiraj Me
+                </a>
+            </div>
+            <div class="hero__info" data-aos="fade-up" data-aos-delay="400">
+                <div class="hero__info-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Isporuka za 24h</span>
+                </div>
+                <div class="hero__info-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Uključen hosting i podrška</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#about-preview" aria-label="Skroluj dole">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview section" id="about-preview">
+        <div class="container">
+            <div class="about-preview__grid">
+                <div class="about-preview__image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=600" alt="Pub Enterijer">
+                    <div class="about-preview__badge">
+                        <span class="number">450€</span>
+                        <span class="text">+ Prva Godina FREE</span>
+                    </div>
+                </div>
+                <div class="about-preview__content" data-aos="fade-left">
+                    <span class="section__subtitle">O Šablonu</span>
+                    <h2 class="section__title">Profesionalni sajt za vaš lokal</h2>
+                    <p class="about-preview__text">
+                        Ovaj šablon je idealan za pubove, kafiće, restorane i slične ugostiteljske objekte. 
+                        Uključuje sve što vam je potrebno: meni, online porudžbine, galeriju, kontakt formu i još mnogo toga!
+                    </p>
+                    <ul class="about-preview__features">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Responsive dizajn (radi na svim uređajima)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Online porudžbine</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Galerija slika</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Kontakt forma</span>
+                        </li>
+                    </ul>
+                    <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="btn btn--primary">
+                        Naruči Sada <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Menu -->
+    <section class="featured-menu section" id="featured-menu">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__subtitle">Demo Meni</span>
+                <h2 class="section__title">Primer Menija</h2>
+                <p class="section__description">
+                    Ovako može izgledati vaš meni - potpuno prilagodljiv vašim potrebama
+                </p>
+            </div>
+
+            <div class="featured-menu__tabs" data-aos="fade-up">
+                <button class="tab__btn active" data-tab="food">
+                    <i class="fas fa-burger"></i> Hrana
+                </button>
+                <button class="tab__btn" data-tab="drinks">
+                    <i class="fas fa-beer"></i> Piće
+                </button>
+                <button class="tab__btn" data-tab="specials">
+                    <i class="fas fa-star"></i> Specijali
+                </button>
+            </div>
+
+            <div class="featured-menu__content">
+                <!-- Food Tab -->
+                <div class="tab__content active" id="food">
+                    <div class="menu__grid">
+                        <div class="menu__card" data-aos="fade-up">
+                            <div class="menu__card-image">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" alt="Burger">
+                                <span class="menu__card-badge">Hit</span>
+                            </div>
+                            <div class="menu__card-content">
+                                <h3 class="menu__card-title">Burger Klasik</h3>
+                                <p class="menu__card-desc">200g juneće meso, cheddar, slanina, specijalni sos</p>
+                                <div class="menu__card-footer">
+                                    <span class="menu__card-price">890 RSD</span>
+                                    <button class="btn btn--small add-to-cart" title="Dodaj u korpu" data-name="Burger Klasik" data-price="890">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu__card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu__card-image">
+                                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400" alt="Pizza">
+                            </div>
+                            <div class="menu__card-content">
+                                <h3 class="menu__card-title">Pizza Klasik</h3>
+                                <p class="menu__card-desc">Pelat, mocarela, pečenica, pečurke</p>
+                                <div class="menu__card-footer">
+                                    <span class="menu__card-price">990 RSD</span>
+                                    <button class="btn btn--small add-to-cart" title="Dodaj u korpu" data-name="Pizza Klasik" data-price="990">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu__card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu__card-image">
+                                <img src="https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=400" alt="Wings">
+                                <span class="menu__card-badge hot">Ljuto</span>
+                            </div>
+                            <div class="menu__card-content">
+                                <h3 class="menu__card-title">Buffalo Wings</h3>
+                                <p class="menu__card-desc">Hrskava piletina, buffalo sos, blue cheese dip</p>
+                                <div class="menu__card-footer">
+                                    <span class="menu__card-price">750 RSD</span>
+                                    <button class="btn btn--small add-to-cart" title="Dodaj u korpu" data-name="Buffalo Wings" data-price="750">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks Tab -->
+                <div class="tab__content" id="drinks">
+                    <div class="menu__grid">
+                        <div class="menu__card" data-aos="fade-up">
+                            <div class="menu__card-image">
+                                <img src="https://images.unsplash.com/photo-1608270586620-248524c67de9?w=400" alt="Craft Pivo">
+                                <span class="menu__card-badge">Novo</span>
+                            </div>
+                            <div class="menu__card-content">
+                                <h3 class="menu__card-title">Craft Pivo 0.5L</h3>
+                                <p class="menu__card-desc">Domaće craft pivo, citrusi i tropsko voće</p>
+                                <div class="menu__card-footer">
+                                    <span class="menu__card-price">450 RSD</span>
+                                    <button class="btn btn--small add-to-cart" title="Dodaj u korpu" data-name="Craft Pivo 0.5L" data-price="450">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specials Tab -->
+                <div class="tab__content" id="specials">
+                    <div class="menu__grid">
+                        <div class="menu__card special" data-aos="fade-up">
+                            <div class="menu__card-image">
+                                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" alt="BBQ Rebarca">
+                                <span class="menu__card-badge special">Chef's Choice</span>
+                            </div>
+                            <div class="menu__card-content">
+                                <h3 class="menu__card-title">BBQ Rebarca</h3>
+                                <p class="menu__card-desc">Svinjska rebarca marinirana 24h, glazirana BBQ sosom</p>
+                                <div class="menu__card-footer">
+                                    <span class="menu__card-price">1290 RSD</span>
+                                    <button class="btn btn--small add-to-cart" title="Dodaj u korpu" data-name="BBQ Rebarca" data-price="1290">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-menu__cta" data-aos="fade-up">
+                <a href="meni" class="btn btn--primary btn--large">
+                    Pogledaj Kompletan Meni <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta__bg"></div>
+        <div class="container">
+            <div class="cta__content" data-aos="zoom-in">
+                <h2 class="cta__title">Želite ovakav sajt?</h2>
+                <p class="cta__text">Cena sajta: 450€ sa prvom godinom besplatno (hosting, održavanje). Posle: 300€/godišnje.</p>
+                <div class="cta__buttons">
+                    <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="btn btn--primary btn--large">
+                        <i class="fas fa-shopping-cart"></i> Naruči Sada
+                    </a>
+                    <a href="tel:+381612248989" class="btn btn--outline btn--large">
+                        <i class="fas fa-phone"></i> +381 61 224 8989
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAJT NA PRODAJU CTA Section -->
+    <section class="py-16 bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50 border-y-4 border-orange-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <div class="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 text-white py-6 px-8">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center">
+                        🔥 Ovaj Sajt Je Na Prodaju! 🔥
+                    </h2>
+                </div>
+                <div class="p-8 md:p-12">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Zašto Kupiti Ovaj Sajt?</h3>
+                            <ul class="space-y-3 text-gray-700">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Kompletan šablon</strong> - 6 stranica: Početna, Meni, Porudžbine, O Nama, Galerija, Kontakt</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>SEO Optimizovan</strong> - Vrhunsko rangiranje u Google pretrazi</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Responsive Dizajn</strong> - Savršeno radi na svim uređajima</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Online Porudžbine</strong> - Sistem za poručivanje hrane/pića</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Profesionalan dizajn</strong> - Moderno i privlačno za pub/restoran</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Kontakt forma</strong> - Automatsko slanje emailova</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-gradient-to-br from-red-100 to-orange-100 rounded-xl p-8 mb-6">
+                                <div class="text-sm font-semibold text-gray-700 uppercase mb-2">Kompletna Izrada Sajta</div>
+                                <div class="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500 mb-2">
+                                    450€
+                                </div>
+                                <div class="text-sm text-gray-600 font-medium">
+                                    + Prva godina BESPLATNO (hosting, održavanje, prilagodbe)
+                                </div>
+                                <div class="mt-4 text-lg text-gray-700 font-bold">
+                                    Nakon prve godine: <span class="text-red-600">300€/godišnje</span>
+                                </div>
+                                <div class="mt-2 text-xs text-gray-500">
+                                    * Prilagodba svih slika i podataka uključena
+                                </div>
+                            </div>
+                            <a href="https://svilenkovic.com/contact.php" target="_blank" rel="noopener" class="inline-block bg-gradient-to-r from-red-600 to-orange-500 text-white px-8 py-4 rounded-xl text-xl font-bold hover:from-red-700 hover:to-orange-600 transition-all transform hover:scale-105 shadow-xl">
+                                <i class="fas fa-shopping-cart mr-2"></i>
+                                Kupi Sajt Odmah
+                            </a>
+                            <div class="mt-6 space-y-2 text-sm text-gray-600">
+                                <p><i class="fas fa-globe mr-2 text-orange-500"></i> <a href="https://svilenkovic.com" target="_blank" rel="noopener" class="font-bold hover:text-orange-500">svilenkovic.com</a></p>
+                                <p><i class="fas fa-envelope mr-2 text-orange-500"></i> <a href="mailto:dimitrije@svilenkovic.com" class="font-bold hover:text-orange-500">dimitrije@svilenkovic.com</a></p>
+                                <p><i class="fas fa-phone mr-2 text-orange-500"></i> <a href="tel:+381612248989" class="font-bold hover:text-orange-500">+381 61 224 8989</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 p-6 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg">
+                        <p class="text-sm text-gray-700">
+                            <i class="fas fa-info-circle text-yellow-600 mr-2"></i>
+                            <strong>Šta dobijate:</strong> Kompletnu izradu sajta sa prilagođenim slikama, tekstovima i podacima za vaš lokal. 
+                            Admin panel za upravljanje sadržajem. Cena uključuje sve: hosting, domen, održavanje i podršku.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__grid">
+                    <div class="footer__col">
+                        <a href="index" class="footer__logo">
+                            <i class="fas fa-beer-mug-empty"></i>
+                            <span>Pub<strong>Šablon</strong></span>
+                        </a>
+                        <p class="footer__desc">
+                            Demo šablon za pub, kafić ili restoran. Cena: 450€ + prva godina besplatno, posle 300€/godišnje.
+                        </p>
+                        <div class="footer__social">
+                            <a href="https://svilenkovic.com" target="_blank" rel="noopener" aria-label="Website">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                            <a href="mailto:dimitrije@svilenkovic.com" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:+381612248989" aria-label="Phone">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__col">
+                        <h4 class="footer__title">Stranice Šablona</h4>
+                        <ul class="footer__links">
+                            <li><a href="index">Početna</a></li>
+                            <li><a href="meni">Meni</a></li>
+                            <li><a href="porudzbine">Poruči Online</a></li>
+                            <li><a href="o-nama">O Nama</a></li>
+                            <li><a href="galerija">Galerija</a></li>
+                            <li><a href="kontakt">Kontakt</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__col">
+                        <h4 class="footer__title">Kontakt za Narudžbinu</h4>
+                        <ul class="footer__contact">
+                            <li>
+                                <i class="fas fa-globe"></i>
+                                <a href="https://svilenkovic.com" target="_blank" rel="noopener">svilenkovic.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+381612248989">+381 61 224 8989</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:dimitrije@svilenkovic.com">dimitrije@svilenkovic.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Prijatelji web stranice -->
+                <div class="footer__friends">
+                    <h4 class="footer__title footer__title--center">Prijatelji web stranice</h4>
+                    <div class="footer__friends-list">
+                        <a href="https://onbeat.ba" target="_blank" rel="noopener">onbeat.ba</a>
+                        <a href="https://prvalekcija.com" target="_blank" rel="noopener">prvalekcija.com</a>
+                        <a href="https://detailing016.rs" target="_blank" rel="noopener">detailing016.rs</a>
+                        <a href="https://dezimal.rs" target="_blank" rel="noopener">dezimal.rs</a>
+                        <a href="https://skolanemackog.online" target="_blank" rel="noopener">skolanemackog.online</a>
+                        <a href="https://glassbosnjace.rs" target="_blank" rel="noopener">glassbosnjace.rs</a>
+                        <a href="https://glassbosnjace.online" target="_blank" rel="noopener">glassbosnjace.online</a>
+                        <a href="https://batastankovic.com" target="_blank" rel="noopener">batastankovic.com</a>
+                        <a href="https://autoset.rs" target="_blank" rel="noopener">autoset.rs</a>
+                        <a href="https://vodoinstalaterzlaja2015.rs" target="_blank" rel="noopener">vodoinstalaterzlaja2015.rs</a>
+                        <a href="https://ivkovicprevoz.rs" target="_blank" rel="noopener">ivkovicprevoz.rs</a>
+                        <a href="https://konjskomeso.rs" target="_blank" rel="noopener">konjskomeso.rs</a>
+                        <a href="https://konjskomeso.com" target="_blank" rel="noopener">konjskomeso.com</a>
+                        <a href="https://svetlecereklame3dart.rs" target="_blank" rel="noopener">svetlecereklame3dart.rs</a>
+                        <a href="https://konjskomeso.online" target="_blank" rel="noopener">konjskomeso.online</a>
+                        <a href="https://ducadizajn.svilenkovic.com" target="_blank" rel="noopener">ducadizajn.svilenkovic.com</a>
+                        <a href="https://piljenjedrva.svilenkovic.com" target="_blank" rel="noopener">piljenjedrva.svilenkovic.com</a>
+                        <a href="https://koliba.svilenkovic.com" target="_blank" rel="noopener">koliba.svilenkovic.com</a>
+                        <a href="https://klasicangejming.com" target="_blank" rel="noopener">klasicangejming.com</a>
+                        <a href="https://svilenkovic.com" target="_blank" rel="noopener">svilenkovic.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2024 Pub Šablon. Razvijeno od strane <a href="https://svilenkovic.com" target="_blank" rel="noopener" class="footer-link-orange">Svilenkovic.com</a></p>
+                <div class="footer__legal">
+                    <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener">Naruči Šablon</a>
+                    <a href="https://svilenkovic.com/contact" target="_blank" rel="noopener">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Sale Badge -->
+    <div class="fixed bottom-6 right-6 z-50 animate-bounce">
+        <a href="viber://chat?number=+381612248989" target="_blank" rel="noopener" class="block">
+            <div class="bg-gradient-to-br from-red-600 to-orange-600 text-white rounded-full p-6 shadow-2xl hover:scale-110 transition-transform cursor-pointer border-4 border-white badge-pulse">
+                <div class="text-center">
+                    <div class="text-sm font-bold uppercase mb-1">Sajt</div>
+                    <div class="text-sm font-bold uppercase mb-2">Na Prodaju</div>
+                    <div class="text-3xl font-black">450€</div>
+                    <div class="text-xs font-semibold">+ 1. god FREE</div>
+                    <div class="mt-2 text-xs">
+                        <i class="fas fa-shopping-cart"></i> Kupi
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-sidebar__header">
+            <h3><i class="fas fa-shopping-cart"></i> Vaša Korpa (Demo)</h3>
+            <button class="cart-sidebar__close" title="Zatvori korpu" id="cart-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-sidebar__items" id="cart-items">
+            <p class="cart-sidebar__demo-message">Ovo je demo korpa. Za pravi sajt naručite šablon!</p>
+        </div>
+        <div class="cart-sidebar__footer">
+            <div class="cart-sidebar__total">
+                <span>Demo</span>
+                <span id="cart-total">0 RSD</span>
+            </div>
+            <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="btn btn--primary btn--block">
+                Naruči Šablon
+            </a>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
