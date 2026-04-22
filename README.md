@@ -1,34 +1,38 @@
 # Pub Svilenkovic Com
 
-Source kod sajta ugostiteljskog objekta (meni, porudzbine, galerija, kontakt) optimizovan za brz static/PHP deploy.
+Source repository for a hospitality business website, including menu, orders, gallery, and contact pages.
 
-## Tehnologije
+## Tech Stack
 
 - HTML/CSS/JavaScript
-- PHP fallback (`default.php`, `maintenance.php`)
-- SEO (`robots.txt`, `sitemap.xml`)
+- PHP fallback files (`default.php`, `maintenance.php`)
+- SEO files (`robots.txt`, `sitemap.xml`)
 
-## Klucne stranice
+## Project Structure
 
-- `index.html`: pocetna
-- `meni.html`: ponuda
-- `porudzbine.html`: porudzbine
-- `o-nama.html`: o lokalu
-- `galerija.html`: galerija
-- `kontakt.html`: kontakt
+- `index.html`: homepage
+- `meni.html`: menu page
+- `porudzbine.html`: ordering page
+- `o-nama.html`: about page
+- `galerija.html`: gallery page
+- `kontakt.html`: contact page
 
-## Lokalni pregled
+## Local Preview
 
 ```bash
 php -S 127.0.0.1:8080
 ```
 
-## Live Preview
+## Live Site
 
 - https://www.nosatipub.rs
 
-## Operativne napomene
+## Deployment Notes
 
-- Posle vecih izmena proveri sve navigacione linkove izmedju stranica.
-- Odrzavaj SEO fajlove (`robots.txt`, `sitemap.xml`) u skladu sa finalnim URL-ovima.
-- Ako se koriste forme/porudzbine, validiraj backend endpoint pre deploy-a.
+- Verify cross-page navigation after each content update.
+- Keep SEO files aligned with final production URLs.
+- Re-test any order/contact integrations before publishing.
+
+## Language Note
+
+The website content is intentionally in Serbian for the target audience.
