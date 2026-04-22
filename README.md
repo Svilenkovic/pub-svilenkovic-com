@@ -1,52 +1,34 @@
 # Pub Svilenkovic Com
 
-Public source snapshot for pub-svilenkovic-com website domain.
-
-## Sadrzaj
-
-- Pregled
-- Tehnologije
-- Pokretanje lokalno
-- Struktura projekta
-- Live Preview
-- Odrzavanje
+Source kod sajta ugostiteljskog objekta (meni, porudzbine, galerija, kontakt) optimizovan za brz static/PHP deploy.
 
 ## Tehnologije
 
-- Nije automatski detektovano
+- HTML/CSS/JavaScript
+- PHP fallback (`default.php`, `maintenance.php`)
+- SEO (`robots.txt`, `sitemap.xml`)
 
-## Pokretanje lokalno
+## Klucne stranice
+
+- `index.html`: pocetna
+- `meni.html`: ponuda
+- `porudzbine.html`: porudzbine
+- `o-nama.html`: o lokalu
+- `galerija.html`: galerija
+- `kontakt.html`: kontakt
+
+## Lokalni pregled
 
 ```bash
-# Nema standardnog package manager fajla u korenu repoa
-# Proveri postojece skripte i konfiguracione fajlove
+php -S 127.0.0.1:8080
 ```
 
-## Struktura projekta
-
-- `default.php`
-- `galerija.css`
-- `galerija.html`
-- `galerija.html.bak_friends`
-- `galerija.js`
-- `.htaccess`
-- `index.html`
-- `index.html.bak_friends`
-- `kontakt.html`
-- `kontakt.html.bak_friends`
-- `maintenance.html`
-- `maintenance.php`
-- `meni.css`
-- `meni.html`
-- `meni.html.bak_friends`
-
 ## Live Preview
-- https://assets.hostinger.com
-- https://autoset.rs
-- https://batastankovic.com
 
-## Odrzavanje
+- https://www.nosatipub.rs
 
-- Odrzavaj README azurnim kada menjas arhitekturu, build ili deploy proces.
-- Za produkcione promene vodi racuna o konfiguraciji okruzenja i bezbednosti tajnih podataka.
-- Pre merge-a proveri lint/test/build korake koji postoje u ovom projektu.
+## Operativne napomene
+
+- Posle vecih izmena proveri sve navigacione linkove izmedju stranica.
+- Odrzavaj SEO fajlove (`robots.txt`, `sitemap.xml`) u skladu sa finalnim URL-ovima.
+- Ako se koriste forme/porudzbine, validiraj backend endpoint pre deploy-a.
